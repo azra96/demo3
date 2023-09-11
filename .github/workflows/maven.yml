@@ -35,6 +35,4 @@ jobs:
       run: mkdir staging && cp target/*.jar staging
     - name : upload
       uses: action/upload-artifact@v2
-      with: 
-      name: Controller
-      path: staging
+      
